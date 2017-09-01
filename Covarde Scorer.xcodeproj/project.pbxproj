@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		267563371E7C827800868A82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267563361E7C827800868A82 /* AppDelegate.swift */; };
+		267563391E7C827800868A82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267563381E7C827800868A82 /* ViewController.swift */; };
+		2675633C1E7C827800868A82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2675633A1E7C827800868A82 /* Main.storyboard */; };
+		2675633F1E7C827800868A82 /* Covarde_Scorer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2675633D1E7C827800868A82 /* Covarde_Scorer.xcdatamodeld */; };
+		267563411E7C827800868A82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267563401E7C827800868A82 /* Assets.xcassets */; };
+		267563441E7C827800868A82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267563421E7C827800868A82 /* LaunchScreen.storyboard */; };
+		2675634C1E7C8B5600868A82 /* ScorerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2675634B1E7C8B5600868A82 /* ScorerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		267563331E7C827800868A82 /* Covarde Scorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Covarde Scorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		267563361E7C827800868A82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		267563381E7C827800868A82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2675633B1E7C827800868A82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2675633E1E7C827800868A82 /* Covarde_Scorer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Covarde_Scorer.xcdatamodel; sourceTree = "<group>"; };
+		267563401E7C827800868A82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		267563431E7C827800868A82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		267563451E7C827800868A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2675634B1E7C8B5600868A82 /* ScorerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScorerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		267563301E7C827800868A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2675632A1E7C827800868A82 = {
+			isa = PBXGroup;
+			children = (
+				267563351E7C827800868A82 /* Covarde Scorer */,
+				267563341E7C827800868A82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		267563341E7C827800868A82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				267563331E7C827800868A82 /* Covarde Scorer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		267563351E7C827800868A82 /* Covarde Scorer */ = {
+			isa = PBXGroup;
+			children = (
+				267563361E7C827800868A82 /* AppDelegate.swift */,
+				267563381E7C827800868A82 /* ViewController.swift */,
+				2675634B1E7C8B5600868A82 /* ScorerViewController.swift */,
+				2675633A1E7C827800868A82 /* Main.storyboard */,
+				267563401E7C827800868A82 /* Assets.xcassets */,
+				267563421E7C827800868A82 /* LaunchScreen.storyboard */,
+				267563451E7C827800868A82 /* Info.plist */,
+				2675633D1E7C827800868A82 /* Covarde_Scorer.xcdatamodeld */,
+			);
+			path = "Covarde Scorer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		267563321E7C827800868A82 /* Covarde Scorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267563481E7C827800868A82 /* Build configuration list for PBXNativeTarget "Covarde Scorer" */;
+			buildPhases = (
+				2675632F1E7C827800868A82 /* Sources */,
+				267563301E7C827800868A82 /* Frameworks */,
+				267563311E7C827800868A82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Covarde Scorer";
+			productName = "Covarde Scorer";
+			productReference = 267563331E7C827800868A82 /* Covarde Scorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2675632B1E7C827800868A82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ben Hur Martins";
+				TargetAttributes = {
+					267563321E7C827800868A82 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 59M8L8YY39;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2675632E1E7C827800868A82 /* Build configuration list for PBXProject "Covarde Scorer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2675632A1E7C827800868A82;
+			productRefGroup = 267563341E7C827800868A82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				267563321E7C827800868A82 /* Covarde Scorer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		267563311E7C827800868A82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267563441E7C827800868A82 /* LaunchScreen.storyboard in Resources */,
+				267563411E7C827800868A82 /* Assets.xcassets in Resources */,
+				2675633C1E7C827800868A82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2675632F1E7C827800868A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267563391E7C827800868A82 /* ViewController.swift in Sources */,
+				267563371E7C827800868A82 /* AppDelegate.swift in Sources */,
+				2675634C1E7C8B5600868A82 /* ScorerViewController.swift in Sources */,
+				2675633F1E7C827800868A82 /* Covarde_Scorer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2675633A1E7C827800868A82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2675633B1E7C827800868A82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		267563421E7C827800868A82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				267563431E7C827800868A82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		267563461E7C827800868A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		267563471E7C827800868A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		267563491E7C827800868A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 59M8L8YY39;
+				INFOPLIST_FILE = "Covarde Scorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.ben-hur.Covarde-Scorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2675634A1E7C827800868A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 59M8L8YY39;
+				INFOPLIST_FILE = "Covarde Scorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.ben-hur.Covarde-Scorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2675632E1E7C827800868A82 /* Build configuration list for PBXProject "Covarde Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267563461E7C827800868A82 /* Debug */,
+				267563471E7C827800868A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		267563481E7C827800868A82 /* Build configuration list for PBXNativeTarget "Covarde Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267563491E7C827800868A82 /* Debug */,
+				2675634A1E7C827800868A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2675633D1E7C827800868A82 /* Covarde_Scorer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2675633E1E7C827800868A82 /* Covarde_Scorer.xcdatamodel */,
+			);
+			currentVersion = 2675633E1E7C827800868A82 /* Covarde_Scorer.xcdatamodel */;
+			path = Covarde_Scorer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2675632B1E7C827800868A82 /* Project object */;
+}
